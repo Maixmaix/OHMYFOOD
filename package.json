@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet OpenClassroom 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maixmaix/ohmyfood.git"
+  },
+  "author": "Maixent Da Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maixmaix/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Maixmaix/ohmyfood#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
