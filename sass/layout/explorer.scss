@@ -1,9 +1,9 @@
 @use "../utils/box-shadow.scss";
+@use "../utils/linear-gradient.scss";
 
 .explorer {
     text-align: center;
     & h2 {
-        margin-top: 2rem;
         font-size: 2rem;
     }
     & p {
@@ -19,9 +19,9 @@
         transition: transform 200ms;
         margin-top: 1rem;
         @include box-shadow.base-shadow;
-        cursor: pointer;
-        background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-        font-size: 1rem;
+        @include linear-gradient.gradient(0.9);
+        
+        
     }
     & button:hover {
         transform: scale(1.02);
